@@ -1,7 +1,7 @@
 # 3POB
 📌 Sobre a Disciplina
 
-A disciplina 3POB (Programação Orientada a Objetos Básica) tem como objetivo introduzir os conceitos fundamentais da Programação Orientada a Objetos (POO), utilizando a linguagem Java como base. Durante o curso, são abordados desde os paradigmas de programação até tópicos avançados como tratamento de exceções, coleções, generics e expressões lambda.
+A disciplina 3POB (Programação Orientada a Objetos Básica) da FAETERJ-RIO tem como objetivo introduzir os conceitos fundamentais da Programação Orientada a Objetos (POO), utilizando a linguagem Java como base. Durante o curso, são abordados desde os paradigmas de programação até tópicos avançados como tratamento de exceções, coleções, generics e expressões lambda.
 
 📖 Conteúdo Programático
 
@@ -72,10 +72,6 @@ git clone https://github.com/seu-usuario/3POB.git
 Importe o projeto na sua IDE preferida.
 
 Explore os códigos-fonte e materiais disponíveis.
-
-📌 Contribuições
-
-Se você deseja contribuir com melhorias, sugestões ou novos exemplos, fique à vontade para abrir um Pull Request ou uma Issue.
 
 📞 Contato
 
