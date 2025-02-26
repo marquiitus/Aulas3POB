@@ -76,7 +76,8 @@ Explore os códigos-fonte e materiais disponíveis.
 📞 Contato
 
 Caso tenha dúvidas ou queira trocar conhecimento, entre em contato!
-📧 Email: marcos.24104708360017@faeterj-rio.edu.br🐙 GitHub: Marcos-Souz4💼
+📧 Email: marcos.24104708360017@faeterj-rio.edu.br🐙 
+GitHub: Marcos-Souz4💼
 
 📢 Importante: Este repositório é destinado ao aprendizado e prática dos conceitos de POO. Sempre consulte a documentação oficial do Java para aprofundamento.
 
