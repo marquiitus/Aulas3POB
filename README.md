@@ -1,4 +1,4 @@
-# Programação Orientada a Objetos Básica (3POB)  
+# Aulas3POB  
 
 Bem-vindo ao meu repositório da disciplina **Programação Orientada a Objetos Básica (3POB)** do curso superior de **Análise e Desenvolvimento de Sistemas** da **FAETERJ-RIO**! Aqui você encontrará conteúdos essenciais para compreender os fundamentos da **Programação Orientada a Objetos (POO)** utilizando a linguagem **Java**.
 
@@ -58,16 +58,13 @@ A disciplina aborda os seguintes tópicos:
 2. Importe o projeto na sua IDE preferida (IntelliJ IDEA, Eclipse, VS Code).
 3. Explore os códigos-fonte e materiais disponíveis.
 
-## 📚 Referências
-- **Documentação oficial do Java:** [docs.oracle.com](https://docs.oracle.com/en/java/)
-- **Livro:** Effective Java – Joshua Bloch
-
 ## 📞 Contato
 Caso tenha dúvidas ou queira trocar conhecimento, entre em contato!
 📧 **Email:** marcos.24104708360017@faeterj-rio.edu.br  
 🐙 **GitHub:** [marquiitus](https://github.com/marquiitus)
 
-## 📜 Licença
-Este projeto é destinado ao aprendizado e prática dos conceitos de POO. Sempre consulte a documentação oficial do Java para aprofundamento.
+## 📚 Referências
+- **Documentação oficial do Java:** [docs.oracle.com](https://docs.oracle.com/en/java/)
+- **Livro:** Effective Java – Joshua Bloch
 
 🎯 Bons estudos e boa programação! 🚀
