@@ -7,7 +7,7 @@ Critérios para ser bissexto:
 • Deve ser divisível por 4.
 • Se for divisível por 100, deve também ser divisível por 400.*/
 
-package exercicios.exercicios2.problema4;
+package exercicios2.problema4;
 
 import java.util.Scanner;
 
