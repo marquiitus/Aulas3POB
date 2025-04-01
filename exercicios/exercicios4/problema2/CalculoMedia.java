@@ -20,7 +20,7 @@ public class CalculoMedia {
     Scanner sc = new Scanner(System.in);
     float vetor[] = new float[4];
     float soma=0, media;
-    int i;
+    int i=0;
 
     for(i=0; i<4; i++) {
 
@@ -29,17 +29,13 @@ public class CalculoMedia {
       soma+=vetor[i];
     }
 
-   media = soma/i;   
+    media = soma/i;   
 
     System.out.println("A média do(a) aluno(a) é: " + media);
-    if(media>=7) {
-
-
+    if(media>=7)
       System.out.println("Aprovado!");
-    } else {
-
+     else 
       System.out.println("Reprovado!");
-    }
 
     sc.close();
   }

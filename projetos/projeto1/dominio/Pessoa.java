@@ -6,9 +6,9 @@ public class Pessoa {
   private int idade;
   private double altura;
   private double peso;
-  private String sexo;
+  private char sexo;
 
-  public Pessoa (String nome, int idade, double altura, double peso, String sexo) {
+  public Pessoa (String nome, int idade, double altura, double peso, char sexo) {
     this.nome = nome;
     this.idade = idade;
     this.altura = altura;
@@ -48,20 +48,52 @@ public class Pessoa {
     this.peso = peso;
   }
 
-  public String getSexo() {
+  public char getSexo() {
     return sexo;
   }
 
-  public void setSexo(String sexo) {
+  public void setSexo(char sexo) {
     this.sexo = sexo;
   }
 
   public void listarPessoa() {
 
-    System.out.println("\n" + nome);
-    System.out.println(idade);
-    System.out.println(altura);
-    System.out.println(peso);
-    System.out.println(sexo + "\n");
+    System.out.println("\nNome da pessoa:" + nome);
+    System.out.println("\nIdade da pessoa:" + idade);
+    System.out.println("\nAltura da pessoa:" + altura);
+    System.out.println("\nPeso da pessoa:" + peso);
+    System.out.println("\nSexo da pessoa:" + sexo + "\n");
+  }
+
+  public double calcularIMC() {
+    return (peso/(altura * altura));
+  }
+
+  public String classificarIMC() {
+
+    String resposta = "";
+    double imc = calcularIMC();
+
+    if(imc < 18.5) {
+
+      resposta = "Magreza";
+    } else if(imc <= 24.9) {
+
+      resposta = "Normal";
+    } else if(imc <= 29.9) {
+
+      resposta = "Sobrepeso";
+    } else if(imc <= 34.9) {
+
+      resposta = "Obesidade grau I";
+    } else if(imc <= 39.9) {
+
+      resposta = "Obesidade grau II";
+    } else {
+
+      resposta = "Obesidade grau III";
+    }
+
+    return resposta;
   }
 }
