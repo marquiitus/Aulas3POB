@@ -1,14 +1,13 @@
-/*Exercício 2: Cálculo da Média de Notas
+/* Exercício 2: Cálculo da Média de Notas
 Descrição:
 Desenvolva um programa que peça ao usuário para inserir 4 notas e armazene-as
 em um array. Depois, o programa deve calcular e exibir a média das notas.
-
 
 Requisitos:
 • Criar um array de tamanho 4 para armazenar as notas.
 • Utilizar um loop for para somar todas as notas e calcular a média.
 • Se a média for maior ou igual a 7, exibir "Aprovado", senão, exibir
-"Reprovado".*/
+"Reprovado". */
 
 package exercicios4.problema2;
 
@@ -21,9 +20,9 @@ public class CalculoMedia {
     float vetor[] = new float[4];
     float soma=0, media;
     int i=0;
-
+    
     for(i=0; i<4; i++) {
-
+      
       System.out.println("Entre com uma nota: ");
       vetor[i] = sc.nextFloat();
       soma+=vetor[i];
@@ -36,7 +35,7 @@ public class CalculoMedia {
       System.out.println("Aprovado!");
      else 
       System.out.println("Reprovado!");
-
+      
     sc.close();
   }
 }
