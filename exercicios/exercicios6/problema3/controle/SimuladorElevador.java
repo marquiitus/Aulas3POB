@@ -16,7 +16,7 @@ public class SimuladorElevador {
   public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
-    System.out.println("Digite o total de andares do elevador: ");
+    System.out.println("Digite o total de andares do prédio: ");
     int totalAndares = sc.nextInt();
 
     System.out.println("Digite o andar atual:");
