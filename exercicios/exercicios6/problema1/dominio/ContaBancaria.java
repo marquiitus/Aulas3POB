@@ -31,14 +31,22 @@ public class ContaBancaria {
     System.out.println("\nSaldo: " + saldo + "\n");
   }
 
-  public double depositar(double valor) {
-    saldo += valor;
-    return saldo;
+  public void depositar(double valor) {
+
+    if(valor>0) {
+      saldo += valor;
+      System.out.println("Depósito de R$ " + valor + " realizado com sucesso!");
+    } else 
+        System.out.println("Valor inválido para depósito...");
   }
 
-  public double sacar(double valor) {
-    saldo -= valor;
-    return saldo;
+  public void sacar(double valor) {
+
+    if(valor>0 && valor <= saldo) {
+      saldo -= valor;
+      System.out.println("Saque de R$ " + valor + " realizado com sucesso!");
+    } else
+        System.out.println("Valor inválido para saque...");
   }
 
   public void exibirSaldo() {

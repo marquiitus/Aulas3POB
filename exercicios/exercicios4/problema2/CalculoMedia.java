@@ -27,15 +27,15 @@ public class CalculoMedia {
       vetor[i] = sc.nextFloat();
       soma+=vetor[i];
     }
-
+    
     media = soma/i;   
-
+    
     System.out.println("A média do(a) aluno(a) é: " + media);
     if(media>=7)
-      System.out.println("Aprovado!");
-     else 
-      System.out.println("Reprovado!");
-      
+    System.out.println("Aprovado!");
+    else 
+    System.out.println("Reprovado!");
+    
     sc.close();
   }
 }

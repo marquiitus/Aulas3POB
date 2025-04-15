@@ -25,46 +25,43 @@ public class GerenciarConta {
   public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
-    System.out.println("Nome da Conta:");
-    String nome = sc.nextLine();
-  
-    System.out.println("Senha da Conta:");
-    String senha = sc.nextLine();
-
+    System.out.println("Titular da Conta:");
+    String titular = sc.nextLine();
+    
     System.out.println("Saldo da conta:");
     double saldo = sc.nextDouble();
-  
+    ContaBancaria conta = new ContaBancaria(titular, saldo);
+    
     System.out.println("Exibindo as informações da conta:");
-    System.out.println("Nome da Conta: " + nome + " - Senha: " + senha + " - Saldo: R$" + saldo);
+    conta.listarContaBancaria();
 
-    ContaBancaria conta = new ContaBancaria(nome, saldo);
     while(true) {
 
-      System.out.println("\n(1)Depositar (2)Sacar (3)Consultar Saldo (-1)Sair");
+      System.out.println("\n------- MENU -------");
+      System.out.println("(1)Depositar (2)Sacar (3)Consultar Saldo (4)Sair");
       int op = sc.nextInt();
   
-      if(op==-1) {
+      if(op==4) {
         System.out.println("Programa Finalizado com sucesso!");
         break; 
-      } 
+      }
     
       switch (op) {
         case 1:
-          System.out.println("Qual valor você quer depositar: ");
-          double valor = sc.nextDouble();
-          conta.depositar(valor);
+          System.out.println("Digite o valor do depósito: ");
+          double deposito = sc.nextDouble();
+          conta.depositar(deposito);
           break;
         case 2:
-          System.out.println("Qual valor quer sacar: ");
-          valor = sc.nextDouble();
-          conta.sacar(valor);
+          System.out.println("Digite o valor do saque: ");
+          double saque = sc.nextDouble();
+          conta.sacar(saque);
           break;
         case 3:
           conta.exibirSaldo();
           break;
         default:
           System.out.println("Opção Inexistente!");
-          break;
       }
     }
 
