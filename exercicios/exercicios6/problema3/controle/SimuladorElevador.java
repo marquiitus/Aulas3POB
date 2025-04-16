@@ -26,7 +26,7 @@ public class SimuladorElevador {
     int op;
     do {
 
-      System.out.println("-------- MENU --------");
+      System.out.println("\n-------- MENU --------");
       System.out.println("(1) Subir");
       System.out.println("(2) Descer");
       System.out.println("(3) Exibir Andar");

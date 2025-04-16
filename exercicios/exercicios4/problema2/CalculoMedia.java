@@ -32,9 +32,9 @@ public class CalculoMedia {
     
     System.out.println("A média do(a) aluno(a) é: " + media);
     if(media>=7)
-    System.out.println("Aprovado!");
+      System.out.println("Aprovado!");
     else 
-    System.out.println("Reprovado!");
+      System.out.println("Reprovado!");
     
     sc.close();
   }
