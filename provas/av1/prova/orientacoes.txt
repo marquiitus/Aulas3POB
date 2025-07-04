@@ -1,0 +1,5 @@
+AV1 = (teste + prova)/2
+
+Tópicos 1 à 9 do Oracle Academy:
+introdução aos conceitos de POO, tipos de dados, classes de bibliotecas e métodos,
+instruções de decisão, construções de loop, criando classes, arrays e excessões e JavaFX.
